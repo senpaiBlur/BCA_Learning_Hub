@@ -1,0 +1,18 @@
+# Ignore database connection files containing secrets
+includes/db.php
+
+# Ignore database backups
+*.sql
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment/IDE files
+.vscode/
+.idea/
+.env
+
+# Ignore temp files
+tmp/
+logs/
